@@ -10,5 +10,6 @@ void CursorRight::execute(EditorModel& model)
 
 void CursorRight::undo(EditorModel& model)
 {
-    return;
+    
+    model.moveCursor('L');
 }

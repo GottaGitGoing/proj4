@@ -248,6 +248,39 @@ app/CursorDown.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorDown.cpp.s
 .PHONY : app/CursorDown.cpp.s
 
+app/CursorHome.o: app/CursorHome.cpp.o
+
+.PHONY : app/CursorHome.o
+
+# target to build an object file
+app/CursorHome.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorHome.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o
+.PHONY : app/CursorHome.cpp.o
+
+app/CursorHome.i: app/CursorHome.cpp.i
+
+.PHONY : app/CursorHome.i
+
+# target to preprocess a source file
+app/CursorHome.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorHome.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorHome.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.i
+.PHONY : app/CursorHome.cpp.i
+
+app/CursorHome.s: app/CursorHome.cpp.s
+
+.PHONY : app/CursorHome.s
+
+# target to generate assembly for a file
+app/CursorHome.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorHome.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorHome.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.s
+.PHONY : app/CursorHome.cpp.s
+
 app/CursorLeft.o: app/CursorLeft.cpp.o
 
 .PHONY : app/CursorLeft.o
@@ -694,6 +727,9 @@ help:
 	@echo "... app/CursorDown.o"
 	@echo "... app/CursorDown.i"
 	@echo "... app/CursorDown.s"
+	@echo "... app/CursorHome.o"
+	@echo "... app/CursorHome.i"
+	@echo "... app/CursorHome.s"
 	@echo "... app/CursorLeft.o"
 	@echo "... app/CursorLeft.i"
 	@echo "... app/CursorLeft.s"

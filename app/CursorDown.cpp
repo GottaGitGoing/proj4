@@ -9,5 +9,5 @@ void CursorDown::execute(EditorModel& model)
 
 void CursorDown::undo(EditorModel& model)
 {
-    return;
+    model.moveCursor('U');
 }

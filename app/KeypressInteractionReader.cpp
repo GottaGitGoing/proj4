@@ -12,7 +12,7 @@
 #include "CursorLeft.hpp"
 #include "CursorDown.hpp"
 #include "CursorUp.hpp"
-
+#include "CursorHome.hpp"
 
 // You will need to update this member function to watch for the right
 // keypresses and build the right kinds of Interactions as a result.
@@ -37,6 +37,8 @@ Interaction KeypressInteractionReader::nextInteraction()
             {
             case 'X':
                 return Interaction::quit();
+            case 'Z':
+                return Interaction::undo();
             case 'O':
                 return Interaction::command(new CursorRight());
                 break;
@@ -46,6 +48,9 @@ Interaction KeypressInteractionReader::nextInteraction()
                 return Interaction::command(new CursorDown());
             case 'I':
                 return Interaction::command(new CursorUp());
+            case 'Y':
+                return Interaction::command(new CursorHome());
+
             }
         }
         else

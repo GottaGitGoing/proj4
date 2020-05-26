@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a.out.exp.dir/app/BooEdit.cpp.o"
   "CMakeFiles/a.out.exp.dir/app/BooEditLog.cpp.o"
   "CMakeFiles/a.out.exp.dir/app/CursorDown.cpp.o"
+  "CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o"
   "CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.o"
   "CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o"
   "CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o"

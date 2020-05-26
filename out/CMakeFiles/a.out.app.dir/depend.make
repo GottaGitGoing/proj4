@@ -19,9 +19,15 @@ CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/CursorDown.cpp
 CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/CursorDown.hpp
 CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/EditorModel.hpp
 
+CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o: ../app/CursorHome.cpp
+CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o: ../app/CursorHome.hpp
+CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o: ../app/EditorModel.hpp
+
 CMakeFiles/a.out.app.dir/app/CursorLeft.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/CursorLeft.cpp.o: ../app/CursorLeft.cpp
 CMakeFiles/a.out.app.dir/app/CursorLeft.cpp.o: ../app/CursorLeft.hpp
+CMakeFiles/a.out.app.dir/app/CursorLeft.cpp.o: ../app/EditorException.hpp
 CMakeFiles/a.out.app.dir/app/CursorLeft.cpp.o: ../app/EditorModel.hpp
 
 CMakeFiles/a.out.app.dir/app/CursorRight.cpp.o: ../app/Command.hpp
@@ -32,6 +38,7 @@ CMakeFiles/a.out.app.dir/app/CursorRight.cpp.o: ../app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/CursorUp.cpp
 CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/CursorUp.hpp
+CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/EditorException.hpp
 CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o: ../app/EditorModel.hpp
 
 CMakeFiles/a.out.app.dir/app/EditorModel.cpp.o: ../app/EditorException.hpp
@@ -50,6 +57,7 @@ CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o: ../app/InteractionType.
 
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorDown.hpp
+CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorHome.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorLeft.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorRight.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorUp.hpp

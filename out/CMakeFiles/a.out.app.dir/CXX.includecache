@@ -44,9 +44,21 @@ CursorDown.hpp
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
 
+/home/ics45c/projects/proj4/app/CursorHome.cpp
+CursorHome.hpp
+/home/ics45c/projects/proj4/app/CursorHome.hpp
+
+/home/ics45c/projects/proj4/app/CursorHome.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
 /home/ics45c/projects/proj4/app/CursorLeft.cpp
 CursorLeft.hpp
 /home/ics45c/projects/proj4/app/CursorLeft.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
+exception
+-
 
 /home/ics45c/projects/proj4/app/CursorLeft.hpp
 Command.hpp
@@ -65,6 +77,8 @@ Command.hpp
 /home/ics45c/projects/proj4/app/CursorUp.cpp
 CursorUp.hpp
 /home/ics45c/projects/proj4/app/CursorUp.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
 
 /home/ics45c/projects/proj4/app/CursorUp.hpp
 Command.hpp
@@ -129,6 +143,8 @@ CursorDown.hpp
 /home/ics45c/projects/proj4/app/CursorDown.hpp
 CursorUp.hpp
 /home/ics45c/projects/proj4/app/CursorUp.hpp
+CursorHome.hpp
+/home/ics45c/projects/proj4/app/CursorHome.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp

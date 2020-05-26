@@ -28,7 +28,7 @@ int EditorModel::cursorColumn() const
 
 int EditorModel::lineCount() const
 {
-    return 4;
+    return 1;
 }
 
 
@@ -41,13 +41,13 @@ const std::string& EditorModel::line(int lineNumber) const
 
 const std::string& EditorModel::currentErrorMessage() const
 {
-    static std::string removeThis = "";
-    return removeThis;
+    return current_error;
 }
 
 
 void EditorModel::setErrorMessage(const std::string& errorMessage)
 {
+    current_error = errorMessage;
 }
 
 
@@ -58,11 +58,13 @@ void EditorModel::clearErrorMessage()
 
 // -----------------  Helper Functions ---------------
 
+// gets current column (left and right)
 int EditorModel::getCurrentColumn() const
 {
     return col_num;
 }
 
+// gets current line (up and down)
 int EditorModel::getCurrentLine() const
 {
     return line_num;

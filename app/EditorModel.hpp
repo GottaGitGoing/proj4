@@ -85,14 +85,22 @@ public:
     // moves the cursor "L"eft or "R"ight 'U'p and 'D'own
     void moveCursor(char direction);
 
+    // Sets current 
+
 
 private:
     // Write declarations for any private member variables here.
     // Additionally, you can add any private member functions you'd like.
 
-    // crrent column number
+    // crrent column number (left right)
     int col_num = 1;
+    
+    // current line number (up down)
     int line_num = 1;
+
+    // current error message
+    std::string current_error;
+
 };
 
 

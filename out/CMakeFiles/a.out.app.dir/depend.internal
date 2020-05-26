@@ -19,10 +19,16 @@ CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o
  /home/ics45c/projects/proj4/app/CursorDown.cpp
  /home/ics45c/projects/proj4/app/CursorDown.hpp
  /home/ics45c/projects/proj4/app/EditorModel.hpp
+CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o
+ /home/ics45c/projects/proj4/app/Command.hpp
+ /home/ics45c/projects/proj4/app/CursorHome.cpp
+ /home/ics45c/projects/proj4/app/CursorHome.hpp
+ /home/ics45c/projects/proj4/app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/CursorLeft.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
  /home/ics45c/projects/proj4/app/CursorLeft.cpp
  /home/ics45c/projects/proj4/app/CursorLeft.hpp
+ /home/ics45c/projects/proj4/app/EditorException.hpp
  /home/ics45c/projects/proj4/app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/CursorRight.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
@@ -33,6 +39,7 @@ CMakeFiles/a.out.app.dir/app/CursorUp.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
  /home/ics45c/projects/proj4/app/CursorUp.cpp
  /home/ics45c/projects/proj4/app/CursorUp.hpp
+ /home/ics45c/projects/proj4/app/EditorException.hpp
  /home/ics45c/projects/proj4/app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/EditorModel.cpp.o
  /home/ics45c/projects/proj4/app/EditorException.hpp
@@ -51,6 +58,7 @@ CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
  /home/ics45c/projects/proj4/app/CursorDown.hpp
+ /home/ics45c/projects/proj4/app/CursorHome.hpp
  /home/ics45c/projects/proj4/app/CursorLeft.hpp
  /home/ics45c/projects/proj4/app/CursorRight.hpp
  /home/ics45c/projects/proj4/app/CursorUp.hpp
