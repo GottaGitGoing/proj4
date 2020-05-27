@@ -545,6 +545,39 @@ app/NcursesKeypressReader.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.s
 .PHONY : app/NcursesKeypressReader.cpp.s
 
+app/TypingWords.o: app/TypingWords.cpp.o
+
+.PHONY : app/TypingWords.o
+
+# target to build an object file
+app/TypingWords.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/TypingWords.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.o
+.PHONY : app/TypingWords.cpp.o
+
+app/TypingWords.i: app/TypingWords.cpp.i
+
+.PHONY : app/TypingWords.i
+
+# target to preprocess a source file
+app/TypingWords.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/TypingWords.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/TypingWords.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.i
+.PHONY : app/TypingWords.cpp.i
+
+app/TypingWords.s: app/TypingWords.cpp.s
+
+.PHONY : app/TypingWords.s
+
+# target to generate assembly for a file
+app/TypingWords.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/TypingWords.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/TypingWords.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.s
+.PHONY : app/TypingWords.cpp.s
+
 app/main.o: app/main.cpp.o
 
 .PHONY : app/main.o
@@ -754,6 +787,9 @@ help:
 	@echo "... app/NcursesKeypressReader.o"
 	@echo "... app/NcursesKeypressReader.i"
 	@echo "... app/NcursesKeypressReader.s"
+	@echo "... app/TypingWords.o"
+	@echo "... app/TypingWords.i"
+	@echo "... app/TypingWords.s"
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"

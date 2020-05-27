@@ -13,6 +13,9 @@
 #include "CursorDown.hpp"
 #include "CursorUp.hpp"
 #include "CursorHome.hpp"
+#include "BooEditLog.hpp"
+#include <string>
+// #include "TypingWords.hpp"
 
 // You will need to update this member function to watch for the right
 // keypresses and build the right kinds of Interactions as a result.
@@ -28,7 +31,7 @@ Interaction KeypressInteractionReader::nextInteraction()
     while (true)
     {
         Keypress keypress = keypressReader.nextKeypress();
-
+        std::string a;
         if (keypress.ctrl())
         {
             // The user pressed a Ctrl key (e.g., Ctrl+X); react accordingly
@@ -41,7 +44,6 @@ Interaction KeypressInteractionReader::nextInteraction()
                 return Interaction::undo();
             case 'O':
                 return Interaction::command(new CursorRight());
-                break;
             case 'U':
                 return Interaction::command(new CursorLeft());
             case 'K':
@@ -55,6 +57,9 @@ Interaction KeypressInteractionReader::nextInteraction()
         }
         else
         {
+            a= keypress.code();
+            booEditLog(a);
+            // return Interaction::command(new TypingWords());
             // The user pressed a normal key (e.g., 'h') without holding
             // down Ctrl; react accordingly
         }

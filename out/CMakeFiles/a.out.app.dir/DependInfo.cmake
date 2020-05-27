@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ics45c/projects/proj4/app/KeypressInteractionReader.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o"
   "/home/ics45c/projects/proj4/app/NcursesEditorView.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.app.dir/app/NcursesEditorView.cpp.o"
   "/home/ics45c/projects/proj4/app/NcursesKeypressReader.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o"
+  "/home/ics45c/projects/proj4/app/TypingWords.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o"
   "/home/ics45c/projects/proj4/app/main.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.app.dir/app/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

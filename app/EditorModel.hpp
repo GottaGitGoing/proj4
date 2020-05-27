@@ -85,8 +85,10 @@ public:
     // moves the cursor "L"eft or "R"ight 'U'p and 'D'own
     void moveCursor(char direction);
 
-    // Sets current 
+    // gets the total line count
+    int getTotalLineCount() const;
 
+    
 
 private:
     // Write declarations for any private member variables here.
@@ -101,6 +103,11 @@ private:
     // current error message
     std::string current_error;
 
+    // current string being typed
+    std::string typed_string;
+
+    // Current total lines on screen
+    int line_count = 6;
 };
 
 

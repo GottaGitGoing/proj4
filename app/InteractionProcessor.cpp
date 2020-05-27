@@ -27,6 +27,8 @@ void InteractionProcessor::run()
         }
         else if (interaction.type() == InteractionType::undo)
         {
+            // Undo* command = interaction.undo();
+            // command->undo(model);
         }
         else if (interaction.type() == InteractionType::redo)
         {
@@ -43,6 +45,7 @@ void InteractionProcessor::run()
             catch (EditorException& e)
             {
                 model.setErrorMessage(e.getReason());
+                
             }
 
             view.refresh();

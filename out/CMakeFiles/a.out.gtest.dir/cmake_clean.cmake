@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a.out.gtest.dir/app/KeypressInteractionReader.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/NcursesEditorView.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/NcursesKeypressReader.cpp.o"
+  "CMakeFiles/a.out.gtest.dir/app/TypingWords.cpp.o"
   "bin/a.out.gtest.pdb"
   "bin/a.out.gtest"
 )

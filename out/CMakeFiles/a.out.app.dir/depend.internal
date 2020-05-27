@@ -18,6 +18,7 @@ CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
  /home/ics45c/projects/proj4/app/CursorDown.cpp
  /home/ics45c/projects/proj4/app/CursorDown.hpp
+ /home/ics45c/projects/proj4/app/EditorException.hpp
  /home/ics45c/projects/proj4/app/EditorModel.hpp
 CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o
  /home/ics45c/projects/proj4/app/Command.hpp
@@ -56,6 +57,7 @@ CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o
  /home/ics45c/projects/proj4/app/InteractionReader.hpp
  /home/ics45c/projects/proj4/app/InteractionType.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o
+ /home/ics45c/projects/proj4/app/BooEditLog.hpp
  /home/ics45c/projects/proj4/app/Command.hpp
  /home/ics45c/projects/proj4/app/CursorDown.hpp
  /home/ics45c/projects/proj4/app/CursorHome.hpp
@@ -80,6 +82,12 @@ CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o
  /home/ics45c/projects/proj4/app/KeypressReader.hpp
  /home/ics45c/projects/proj4/app/NcursesKeypressReader.cpp
  /home/ics45c/projects/proj4/app/NcursesKeypressReader.hpp
+CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o
+ /home/ics45c/projects/proj4/app/Command.hpp
+ /home/ics45c/projects/proj4/app/EditorModel.hpp
+ /home/ics45c/projects/proj4/app/Keypress.hpp
+ /home/ics45c/projects/proj4/app/TypingWords.cpp
+ /home/ics45c/projects/proj4/app/TypingWords.hpp
 CMakeFiles/a.out.app.dir/app/main.cpp.o
  /home/ics45c/projects/proj4/app/BooEdit.hpp
  /home/ics45c/projects/proj4/app/BooEditLog.hpp

@@ -17,6 +17,7 @@ CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.hpp
 CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/CursorDown.cpp
 CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/CursorDown.hpp
+CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/EditorException.hpp
 CMakeFiles/a.out.app.dir/app/CursorDown.cpp.o: ../app/EditorModel.hpp
 
 CMakeFiles/a.out.app.dir/app/CursorHome.cpp.o: ../app/Command.hpp
@@ -55,6 +56,7 @@ CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o: ../app/InteractionProce
 CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o: ../app/InteractionReader.hpp
 CMakeFiles/a.out.app.dir/app/InteractionProcessor.cpp.o: ../app/InteractionType.hpp
 
+CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/BooEditLog.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorDown.hpp
 CMakeFiles/a.out.app.dir/app/KeypressInteractionReader.cpp.o: ../app/CursorHome.hpp
@@ -79,6 +81,12 @@ CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/Keypress.hpp
 CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/KeypressReader.hpp
 CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/NcursesKeypressReader.cpp
 CMakeFiles/a.out.app.dir/app/NcursesKeypressReader.cpp.o: ../app/NcursesKeypressReader.hpp
+
+CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o: ../app/EditorModel.hpp
+CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o: ../app/Keypress.hpp
+CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o: ../app/TypingWords.cpp
+CMakeFiles/a.out.app.dir/app/TypingWords.cpp.o: ../app/TypingWords.hpp
 
 CMakeFiles/a.out.app.dir/app/main.cpp.o: ../app/BooEdit.hpp
 CMakeFiles/a.out.app.dir/app/main.cpp.o: ../app/BooEditLog.hpp
