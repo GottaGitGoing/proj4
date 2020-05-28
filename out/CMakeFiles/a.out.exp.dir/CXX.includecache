@@ -39,14 +39,28 @@ EditorModel.hpp
 /home/ics45c/projects/proj4/app/CursorDown.cpp
 CursorDown.hpp
 /home/ics45c/projects/proj4/app/CursorDown.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
 
 /home/ics45c/projects/proj4/app/CursorDown.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
+/home/ics45c/projects/proj4/app/CursorHome.cpp
+CursorHome.hpp
+/home/ics45c/projects/proj4/app/CursorHome.hpp
+
+/home/ics45c/projects/proj4/app/CursorHome.hpp
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
 
 /home/ics45c/projects/proj4/app/CursorLeft.cpp
 CursorLeft.hpp
 /home/ics45c/projects/proj4/app/CursorLeft.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
+exception
+-
 
 /home/ics45c/projects/proj4/app/CursorLeft.hpp
 Command.hpp
@@ -62,6 +76,16 @@ iostream
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
 
+/home/ics45c/projects/proj4/app/CursorUp.cpp
+CursorUp.hpp
+/home/ics45c/projects/proj4/app/CursorUp.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
+
+/home/ics45c/projects/proj4/app/CursorUp.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
 /home/ics45c/projects/proj4/app/EditorException.hpp
 string
 -
@@ -74,6 +98,8 @@ EditorException.hpp
 
 /home/ics45c/projects/proj4/app/EditorModel.hpp
 string
+-
+vector
 -
 
 /home/ics45c/projects/proj4/app/EditorView.hpp
@@ -119,6 +145,18 @@ CursorLeft.hpp
 /home/ics45c/projects/proj4/app/CursorLeft.hpp
 CursorDown.hpp
 /home/ics45c/projects/proj4/app/CursorDown.hpp
+CursorUp.hpp
+/home/ics45c/projects/proj4/app/CursorUp.hpp
+CursorHome.hpp
+/home/ics45c/projects/proj4/app/CursorHome.hpp
+BooEditLog.hpp
+/home/ics45c/projects/proj4/app/BooEditLog.hpp
+EditorModel.hpp
+/home/ics45c/projects/proj4/app/EditorModel.hpp
+string
+-
+TypingWords.hpp
+/home/ics45c/projects/proj4/app/TypingWords.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp
@@ -158,5 +196,15 @@ NcursesKeypressReader.hpp
 KeypressReader.hpp
 /home/ics45c/projects/proj4/app/KeypressReader.hpp
 
+/home/ics45c/projects/proj4/app/TypingWords.cpp
+TypingWords.hpp
+/home/ics45c/projects/proj4/app/TypingWords.hpp
+
+/home/ics45c/projects/proj4/app/TypingWords.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
 /home/ics45c/projects/proj4/exp/expmain.cpp
+vector
+-
 

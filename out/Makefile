@@ -314,6 +314,39 @@ app/CursorLeft.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.s
 .PHONY : app/CursorLeft.cpp.s
 
+app/CursorNewLine.o: app/CursorNewLine.cpp.o
+
+.PHONY : app/CursorNewLine.o
+
+# target to build an object file
+app/CursorNewLine.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorNewLine.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorNewLine.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o
+.PHONY : app/CursorNewLine.cpp.o
+
+app/CursorNewLine.i: app/CursorNewLine.cpp.i
+
+.PHONY : app/CursorNewLine.i
+
+# target to preprocess a source file
+app/CursorNewLine.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorNewLine.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorNewLine.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.i
+.PHONY : app/CursorNewLine.cpp.i
+
+app/CursorNewLine.s: app/CursorNewLine.cpp.s
+
+.PHONY : app/CursorNewLine.s
+
+# target to generate assembly for a file
+app/CursorNewLine.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorNewLine.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorNewLine.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.s
+.PHONY : app/CursorNewLine.cpp.s
+
 app/CursorRight.o: app/CursorRight.cpp.o
 
 .PHONY : app/CursorRight.o
@@ -766,6 +799,9 @@ help:
 	@echo "... app/CursorLeft.o"
 	@echo "... app/CursorLeft.i"
 	@echo "... app/CursorLeft.s"
+	@echo "... app/CursorNewLine.o"
+	@echo "... app/CursorNewLine.i"
+	@echo "... app/CursorNewLine.s"
 	@echo "... app/CursorRight.o"
 	@echo "... app/CursorRight.i"
 	@echo "... app/CursorRight.s"

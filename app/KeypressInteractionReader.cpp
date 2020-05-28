@@ -14,8 +14,10 @@
 #include "CursorUp.hpp"
 #include "CursorHome.hpp"
 #include "BooEditLog.hpp"
+#include "EditorModel.hpp"
 #include <string>
-// #include "TypingWords.hpp"
+#include "TypingWords.hpp"
+#include "CursorNewLine.hpp"
 
 // You will need to update this member function to watch for the right
 // keypresses and build the right kinds of Interactions as a result.
@@ -31,7 +33,7 @@ Interaction KeypressInteractionReader::nextInteraction()
     while (true)
     {
         Keypress keypress = keypressReader.nextKeypress();
-        std::string a;
+        // std::string a;
         if (keypress.ctrl())
         {
             // The user pressed a Ctrl key (e.g., Ctrl+X); react accordingly
@@ -52,13 +54,26 @@ Interaction KeypressInteractionReader::nextInteraction()
                 return Interaction::command(new CursorUp());
             case 'Y':
                 return Interaction::command(new CursorHome());
-
+            case 'J':
+                return Interaction::command(new NewLine());
+            case 'M':
+                return Interaction::command(new NewLine());
             }
         }
         else
         {
-            a= keypress.code();
-            booEditLog(a);
+            // a = keypress.code();
+            // booEditLog(a);
+            TypeWord* word_class = new TypeWord();
+            word_class->word = keypress.code();
+            return Interaction::command( word_class);
+            // word_class->word = keypress.code();
+            // return word_class;
+            // EditorModel::addTypedWord(keypress.code());
+            
+            
+            // a= keypress.code();
+            
             // return Interaction::command(new TypingWords());
             // The user pressed a normal key (e.g., 'h') without holding
             // down Ctrl; react accordingly

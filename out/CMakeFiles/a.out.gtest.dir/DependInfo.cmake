@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ics45c/projects/proj4/app/CursorDown.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/CursorDown.cpp.o"
   "/home/ics45c/projects/proj4/app/CursorHome.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/CursorHome.cpp.o"
   "/home/ics45c/projects/proj4/app/CursorLeft.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/CursorLeft.cpp.o"
+  "/home/ics45c/projects/proj4/app/CursorNewLine.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/CursorNewLine.cpp.o"
   "/home/ics45c/projects/proj4/app/CursorRight.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/CursorRight.cpp.o"
   "/home/ics45c/projects/proj4/app/CursorUp.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/CursorUp.cpp.o"
   "/home/ics45c/projects/proj4/app/EditorModel.cpp" "/home/ics45c/projects/proj4/out/CMakeFiles/a.out.gtest.dir/app/EditorModel.cpp.o"

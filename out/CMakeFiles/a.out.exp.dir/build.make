@@ -201,9 +201,33 @@ CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.o.provides: CMakeFiles/a.out.exp.dir
 CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.o
 
 
+CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
+CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o: ../app/CursorNewLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o -c /home/ics45c/projects/proj4/app/CursorNewLine.cpp
+
+CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics45c/projects/proj4/app/CursorNewLine.cpp > CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.i
+
+CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics45c/projects/proj4/app/CursorNewLine.cpp -o CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.s
+
+CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.requires:
+
+.PHONY : CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.requires
+
+CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.provides: CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.provides
+
+CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o
+
+
 CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o: ../app/CursorRight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o -c /home/ics45c/projects/proj4/app/CursorRight.cpp
 
 CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o.provides.build: CMakeFiles/a.out.
 
 CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o: ../app/CursorUp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o -c /home/ics45c/projects/proj4/app/CursorUp.cpp
 
 CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o.provides.build: CMakeFiles/a.out.exp
 
 CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o: ../app/EditorModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o -c /home/ics45c/projects/proj4/app/EditorModel.cpp
 
 CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o.provides.build: CMakeFiles/a.out.
 
 CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o: ../app/InteractionProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o -c /home/ics45c/projects/proj4/app/InteractionProcessor.cpp
 
 CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/a.out.exp.dir/app/InteractionProcessor.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o: ../app/KeypressInteractionReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o -c /home/ics45c/projects/proj4/app/KeypressInteractionReader.cpp
 
 CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.i: cmake_force
@@ -323,7 +347,7 @@ CMakeFiles/a.out.exp.dir/app/KeypressInteractionReader.cpp.o.provides.build: CMa
 
 CMakeFiles/a.out.exp.dir/app/NcursesEditorView.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/NcursesEditorView.cpp.o: ../app/NcursesEditorView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a.out.exp.dir/app/NcursesEditorView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/a.out.exp.dir/app/NcursesEditorView.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/NcursesEditorView.cpp.o -c /home/ics45c/projects/proj4/app/NcursesEditorView.cpp
 
 CMakeFiles/a.out.exp.dir/app/NcursesEditorView.cpp.i: cmake_force
@@ -347,7 +371,7 @@ CMakeFiles/a.out.exp.dir/app/NcursesEditorView.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.o: ../app/NcursesKeypressReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.o -c /home/ics45c/projects/proj4/app/NcursesKeypressReader.cpp
 
 CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
 CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.o: ../app/TypingWords.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.o -c /home/ics45c/projects/proj4/app/TypingWords.cpp
 
 CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.i: cmake_force
@@ -401,6 +425,7 @@ a_out_exp_OBJECTS = \
 "CMakeFiles/a.out.exp.dir/app/CursorDown.cpp.o" \
 "CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o" \
 "CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.o" \
+"CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o" \
 "CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o" \
 "CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o" \
 "CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o" \
@@ -419,6 +444,7 @@ bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/BooEditLog.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/CursorDown.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.o
+bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o
@@ -429,7 +455,7 @@ bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/NcursesKeypressReader.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/TypingWords.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/build.make
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable bin/a.out.exp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ics45c/projects/proj4/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/a.out.exp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a.out.exp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -443,6 +469,7 @@ CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/BooEditLog.cpp.o
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/CursorDown.cpp.o.requires
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/CursorHome.cpp.o.requires
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/CursorLeft.cpp.o.requires
+CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/CursorNewLine.cpp.o.requires
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/CursorRight.cpp.o.requires
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.o.requires
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/EditorModel.cpp.o.requires

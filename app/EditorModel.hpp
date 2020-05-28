@@ -44,6 +44,7 @@
 #define EDITORMODEL_HPP
 
 #include <string>
+#include <vector>
 
 
 
@@ -88,6 +89,17 @@ public:
     // gets the total line count
     int getTotalLineCount() const;
 
+    void clearTypedWord();
+
+    // add the typed word from KeypressInteractionReader
+    void addTypedWord(std::string& typed);
+
+    // gets the string user just typed KeypressINteractionReader
+    const std::string& getStringTyped() const;
+
+    // adds a new line by increasing line number,count
+    void addNewLine();
+
     
 
 private:
@@ -95,10 +107,10 @@ private:
     // Additionally, you can add any private member functions you'd like.
 
     // crrent column number (left right)
-    int col_num = 1;
+    int col_num;
     
     // current line number (up down)
-    int line_num = 1;
+    int line_num;
 
     // current error message
     std::string current_error;
@@ -107,7 +119,10 @@ private:
     std::string typed_string;
 
     // Current total lines on screen
-    int line_count = 6;
+    int line_count;
+
+    // a list of words typed in each line
+    std::vector<std::string> line_content_list;
 };
 
 

@@ -66,9 +66,19 @@ exception
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
 
+/home/ics45c/projects/proj4/app/CursorNewLine.cpp
+CursorNewLine.hpp
+/home/ics45c/projects/proj4/app/CursorNewLine.hpp
+
+/home/ics45c/projects/proj4/app/CursorNewLine.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
 /home/ics45c/projects/proj4/app/CursorRight.cpp
 CursorRight.hpp
 /home/ics45c/projects/proj4/app/CursorRight.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
 iostream
 -
 
@@ -98,6 +108,8 @@ EditorException.hpp
 
 /home/ics45c/projects/proj4/app/EditorModel.hpp
 string
+-
+vector
 -
 
 /home/ics45c/projects/proj4/app/EditorView.hpp
@@ -149,8 +161,14 @@ CursorHome.hpp
 /home/ics45c/projects/proj4/app/CursorHome.hpp
 BooEditLog.hpp
 /home/ics45c/projects/proj4/app/BooEditLog.hpp
+EditorModel.hpp
+/home/ics45c/projects/proj4/app/EditorModel.hpp
 string
 -
+TypingWords.hpp
+/home/ics45c/projects/proj4/app/TypingWords.hpp
+CursorNewLine.hpp
+/home/ics45c/projects/proj4/app/CursorNewLine.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp
@@ -191,8 +209,6 @@ KeypressReader.hpp
 /home/ics45c/projects/proj4/app/KeypressReader.hpp
 
 /home/ics45c/projects/proj4/app/TypingWords.cpp
-Keypress.hpp
-/home/ics45c/projects/proj4/app/Keypress.hpp
 TypingWords.hpp
 /home/ics45c/projects/proj4/app/TypingWords.hpp
 
