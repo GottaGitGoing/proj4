@@ -20,9 +20,17 @@ void CursorLeft::execute(EditorModel& model)
     {
         throw;
     }
+
+    // makes cursor go up and to the end of line
     if (model.getCurrentLine() != 1 && model.getCurrentColumn() ==1)
     {
         model.moveCursor('U');
+        
+        
+        model.moveToLocation(model.line(model.getCurrentLine()).length()+1);
+        
+        
+        
         // model.moveCursor('U');
 
     }

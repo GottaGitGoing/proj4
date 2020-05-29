@@ -149,6 +149,39 @@ a.out.exp/fast:
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/build
 .PHONY : a.out.exp/fast
 
+app/BackSpace.o: app/BackSpace.cpp.o
+
+.PHONY : app/BackSpace.o
+
+# target to build an object file
+app/BackSpace.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BackSpace.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/BackSpace.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/BackSpace.cpp.o
+.PHONY : app/BackSpace.cpp.o
+
+app/BackSpace.i: app/BackSpace.cpp.i
+
+.PHONY : app/BackSpace.i
+
+# target to preprocess a source file
+app/BackSpace.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BackSpace.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/BackSpace.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/BackSpace.cpp.i
+.PHONY : app/BackSpace.cpp.i
+
+app/BackSpace.s: app/BackSpace.cpp.s
+
+.PHONY : app/BackSpace.s
+
+# target to generate assembly for a file
+app/BackSpace.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BackSpace.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/BackSpace.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/BackSpace.cpp.s
+.PHONY : app/BackSpace.cpp.s
+
 app/BooEdit.o: app/BooEdit.cpp.o
 
 .PHONY : app/BooEdit.o
@@ -247,6 +280,39 @@ app/CursorDown.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorDown.cpp.s
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorDown.cpp.s
 .PHONY : app/CursorDown.cpp.s
+
+app/CursorEnd.o: app/CursorEnd.cpp.o
+
+.PHONY : app/CursorEnd.o
+
+# target to build an object file
+app/CursorEnd.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorEnd.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.o
+.PHONY : app/CursorEnd.cpp.o
+
+app/CursorEnd.i: app/CursorEnd.cpp.i
+
+.PHONY : app/CursorEnd.i
+
+# target to preprocess a source file
+app/CursorEnd.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorEnd.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.i
+.PHONY : app/CursorEnd.cpp.i
+
+app/CursorEnd.s: app/CursorEnd.cpp.s
+
+.PHONY : app/CursorEnd.s
+
+# target to generate assembly for a file
+app/CursorEnd.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/CursorEnd.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorEnd.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorEnd.cpp.s
+.PHONY : app/CursorEnd.cpp.s
 
 app/CursorHome.o: app/CursorHome.cpp.o
 
@@ -412,6 +478,39 @@ app/CursorUp.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/CursorUp.cpp.s
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/CursorUp.cpp.s
 .PHONY : app/CursorUp.cpp.s
+
+app/DelLine.o: app/DelLine.cpp.o
+
+.PHONY : app/DelLine.o
+
+# target to build an object file
+app/DelLine.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/DelLine.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/DelLine.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/DelLine.cpp.o
+.PHONY : app/DelLine.cpp.o
+
+app/DelLine.i: app/DelLine.cpp.i
+
+.PHONY : app/DelLine.i
+
+# target to preprocess a source file
+app/DelLine.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/DelLine.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/DelLine.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/DelLine.cpp.i
+.PHONY : app/DelLine.cpp.i
+
+app/DelLine.s: app/DelLine.cpp.s
+
+.PHONY : app/DelLine.s
+
+# target to generate assembly for a file
+app/DelLine.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/DelLine.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/DelLine.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/DelLine.cpp.s
+.PHONY : app/DelLine.cpp.s
 
 app/EditorModel.o: app/EditorModel.cpp.o
 
@@ -784,6 +883,9 @@ help:
 	@echo "... a.out.gtest"
 	@echo "... a.out.app"
 	@echo "... a.out.exp"
+	@echo "... app/BackSpace.o"
+	@echo "... app/BackSpace.i"
+	@echo "... app/BackSpace.s"
 	@echo "... app/BooEdit.o"
 	@echo "... app/BooEdit.i"
 	@echo "... app/BooEdit.s"
@@ -793,6 +895,9 @@ help:
 	@echo "... app/CursorDown.o"
 	@echo "... app/CursorDown.i"
 	@echo "... app/CursorDown.s"
+	@echo "... app/CursorEnd.o"
+	@echo "... app/CursorEnd.i"
+	@echo "... app/CursorEnd.s"
 	@echo "... app/CursorHome.o"
 	@echo "... app/CursorHome.i"
 	@echo "... app/CursorHome.s"
@@ -808,6 +913,9 @@ help:
 	@echo "... app/CursorUp.o"
 	@echo "... app/CursorUp.i"
 	@echo "... app/CursorUp.s"
+	@echo "... app/DelLine.o"
+	@echo "... app/DelLine.i"
+	@echo "... app/DelLine.s"
 	@echo "... app/EditorModel.o"
 	@echo "... app/EditorModel.i"
 	@echo "... app/EditorModel.s"

@@ -100,6 +100,17 @@ public:
     // adds a new line by increasing line number,count
     void addNewLine();
 
+    // determines if end of line is reached and returns bool
+    bool isEndOfLine() const;
+
+    // moves the cursor to start of line. (Can be altered to go to custom X)
+    void moveToLocation(int location);
+
+    // returns the string in vector with given line number
+    void deleteAtIndex(unsigned int index);
+
+    // deletes the content of a line
+    void clearLine(unsigned int index);
     
 
 private:

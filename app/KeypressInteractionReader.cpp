@@ -18,6 +18,9 @@
 #include <string>
 #include "TypingWords.hpp"
 #include "CursorNewLine.hpp"
+#include "CursorEnd.hpp"
+#include "BackSpace.hpp"
+#include "DelLine.hpp"
 
 // You will need to update this member function to watch for the right
 // keypresses and build the right kinds of Interactions as a result.
@@ -58,6 +61,12 @@ Interaction KeypressInteractionReader::nextInteraction()
                 return Interaction::command(new NewLine());
             case 'M':
                 return Interaction::command(new NewLine());
+            case 'P':
+                return Interaction::command(new CursorEnd());
+            case 'H':
+                return Interaction::command(new BackSpace());
+            case 'D':
+                return Interaction::command(new DelLine());
             }
         }
         else

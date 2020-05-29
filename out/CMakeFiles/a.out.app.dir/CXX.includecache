@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/ics45c/projects/proj4/app/BackSpace.cpp
+BackSpace.hpp
+/home/ics45c/projects/proj4/app/BackSpace.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
+
+/home/ics45c/projects/proj4/app/BackSpace.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
 /home/ics45c/projects/proj4/app/BooEdit.cpp
 BooEdit.hpp
 /home/ics45c/projects/proj4/app/BooEdit.hpp
@@ -43,6 +53,14 @@ EditorException.hpp
 /home/ics45c/projects/proj4/app/EditorException.hpp
 
 /home/ics45c/projects/proj4/app/CursorDown.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
+/home/ics45c/projects/proj4/app/CursorEnd.cpp
+CursorEnd.hpp
+/home/ics45c/projects/proj4/app/CursorEnd.hpp
+
+/home/ics45c/projects/proj4/app/CursorEnd.hpp
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
 
@@ -93,6 +111,16 @@ EditorException.hpp
 /home/ics45c/projects/proj4/app/EditorException.hpp
 
 /home/ics45c/projects/proj4/app/CursorUp.hpp
+Command.hpp
+/home/ics45c/projects/proj4/app/Command.hpp
+
+/home/ics45c/projects/proj4/app/DelLine.cpp
+DelLine.hpp
+/home/ics45c/projects/proj4/app/DelLine.hpp
+EditorException.hpp
+/home/ics45c/projects/proj4/app/EditorException.hpp
+
+/home/ics45c/projects/proj4/app/DelLine.hpp
 Command.hpp
 /home/ics45c/projects/proj4/app/Command.hpp
 
@@ -169,6 +197,12 @@ TypingWords.hpp
 /home/ics45c/projects/proj4/app/TypingWords.hpp
 CursorNewLine.hpp
 /home/ics45c/projects/proj4/app/CursorNewLine.hpp
+CursorEnd.hpp
+/home/ics45c/projects/proj4/app/CursorEnd.hpp
+BackSpace.hpp
+/home/ics45c/projects/proj4/app/BackSpace.hpp
+DelLine.hpp
+/home/ics45c/projects/proj4/app/DelLine.hpp
 
 /home/ics45c/projects/proj4/app/KeypressInteractionReader.hpp
 InteractionReader.hpp

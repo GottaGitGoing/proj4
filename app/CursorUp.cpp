@@ -12,6 +12,11 @@ void CursorUp::execute(EditorModel& model)
         {
             throw EditorException("Already at top");  
         }
+        else
+        {
+            model.moveCursor('U');
+        }
+        
     
 
 
@@ -22,7 +27,7 @@ void CursorUp::execute(EditorModel& model)
     }
     
     
-    model.moveCursor('U');
+    
 }
 
 void CursorUp::undo(EditorModel& model)

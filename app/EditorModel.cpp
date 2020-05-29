@@ -118,6 +118,7 @@ int EditorModel::getCurrentLine() const
     return line_num;
 }
 
+
 void EditorModel::moveCursor(char direction)
 {
     if (direction == 'R')
@@ -145,5 +146,38 @@ void EditorModel::addNewLine()
     // line_content_list.push_back("");
     line_num++;
     line_count++;
-    col_num = 1;
+    moveToLocation(1);
+}
+
+
+void EditorModel::moveToLocation(int location) 
+{
+    col_num = location;
+}
+
+
+bool EditorModel::isEndOfLine() const
+{
+    if (getCurrentColumn() > line(getCurrentLine()).length())
+    {
+        return true;
+    }
+    return false;
+}
+
+
+void EditorModel::deleteAtIndex(unsigned int index)
+{
+    line_content_list.erase(line_content_list.begin() + index);
+    line_num--;
+    line_count--;
+    moveToLocation(1);
+    // line_content_list.at(getCurrentLine()-1).erase(index-1,1);
+    // col_num--;
+}
+
+
+void EditorModel::clearLine(unsigned int index)
+{
+    line_content_list[index] = "";
 }
