@@ -8,6 +8,7 @@ void DelLine::execute(EditorModel& model)
     if (model.getCurrentLine() != 1)
     {
     model.deleteAtIndex(model.getCurrentLine()-1);
+    
     }
     else
     {

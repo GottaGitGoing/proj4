@@ -5,6 +5,7 @@
 
 void CursorUp::execute(EditorModel& model)
 {
+    int len_of_down = 0;
     try
     {
 
@@ -14,7 +15,13 @@ void CursorUp::execute(EditorModel& model)
         }
         else
         {
+            len_of_down = model.line(model.getCurrentLine()).length();
             model.moveCursor('U');
+            if (len_of_down>model.line(model.getCurrentLine()).length())
+            {
+                model.moveToLocation(model.line(model.getCurrentLine()).length()+1);
+            }
+            
         }
         
     
